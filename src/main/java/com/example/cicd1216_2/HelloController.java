@@ -11,4 +11,9 @@ public class HelloController {
     public String hi(){
         return "hi cicd2 github action ^&^bb";
     }
+
+    @GetMapping("/hi2")
+    public String hi2(){
+        return "hi cicd2 github action22 ^&^bb";
+    }
 }
